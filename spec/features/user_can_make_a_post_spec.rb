@@ -21,7 +21,7 @@ RSpec.feature "UserCanMakeAPosts", type: :feature do
     expect(current_path).to eq '/'
     
     # expect page to have 1 post
-    expect(posts.length).to eq 1
+    expect(posts.length).to eq 10
 
     # expect post to have author
     expect(posts[0].text).to have_text 'Person'
